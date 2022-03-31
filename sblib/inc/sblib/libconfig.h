@@ -47,7 +47,8 @@
 //#define INCLUDE_SERIAL      //!< library should open serial for us
 
 //#define ROUTER /// \todo ROUTER not implemented, Lib will be compiled for usage in a router- Phy Addr 0.0.0 is allowed
-
+#define STARTBIT_CAP_RESET  //!< enable capture event for startbit is resetting the counter
+#define TIMER_BASED_RX //!< used 104us timer for sampling rx bits instead of capture of a falling edge
 
 
 
